@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+summary: A beautiful set of predefined colors and a set of color methods to make your Xamarin.Android development life easier
+getting-started: GettingStarted.md
+details: Details.md
+screenshots: 
+  - screenshots/screenshot1.png
+license: License.md
+icons: 
+  - colours_128x128.png
+  - colours_512x512.png
+publisher: Mahmoud Ali
+name: Colours
+id: colours
+samples: 
+  iOS Sample: ../samples/AwesomeSample/AwesomeSample.sln
+publisher-url: https://github.com/akamud
+libraries: 
+  ios: ../lib/ios/Awesome.dll
+version: "0.1"
+...
