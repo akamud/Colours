@@ -16,8 +16,8 @@ The Android Sample contains various examples of how to use Colours in your proje
 
 ## Credits
 
+* [**Ben Gordon**](https://github.com/bennyguitar) - Author of the original iOS version of Colours
 * [**Matthew York**](https://github.com/MatthewYork) - Author of Colours for Android 
-* [**Ben Gordon**](https://github.com/bennyguitar) - Author of original iOS version of Colours
 
 ## License
 [MIT License](https://github.com/akamud/Colours/blob/master/LICENSE)
