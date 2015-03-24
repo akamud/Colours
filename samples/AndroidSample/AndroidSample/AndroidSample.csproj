@@ -42,7 +42,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="Colours.Android">
-      <HintPath>..\..\..\src\Colours.Android\bin\Debug\Colours.Android.dll</HintPath>
+      <HintPath>..\Components\colours-1.0\lib\android\Colours.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -65,12 +65,16 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable\border.xml" />
-    <AndroidResource Include="Resources\values\Color.xml" />
-    <AndroidResource Include="Resources\values\Holo_Colors.xml" />
     <AndroidResource Include="Resources\layout\ColorPaletteResource.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="colours">
+      <Version>1.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
 </Project>
