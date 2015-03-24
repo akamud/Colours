@@ -78,7 +78,7 @@ Detecting a difference in two colors is not as trivial as it sounds. One's first
 
 ```C#
 double distance = Colour.DistanceBetweenColorsWithFormula(colorA, colorB, ColorDistanceFormulaCIE94);
-boolean isNoticablySimilar = distance < threshold;
+bool isNoticablySimilar = distance < threshold;
 ```
 
 **Resources**
