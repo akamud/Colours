@@ -4,7 +4,8 @@ summary: A beautiful set of predefined colors and a set of color methods to make
 getting-started: GettingStarted.md
 details: Details.md
 screenshots: 
-  - screenshots/screenshot1.png
+  - ..\images\colours.png
+  - ..\images\androidsample_screenshot_compressed.png
 license: License.md
 icons: 
   - colours_128x128.png
@@ -13,9 +14,11 @@ publisher: Mahmoud Ali
 name: Colours
 id: colours
 samples: 
-  iOS Sample: ../samples/AwesomeSample/AwesomeSample.sln
+  - name: "Android Sample"
+    path: ..\samples\AndroidSample\AndroidSample.sln
 publisher-url: https://github.com/akamud
 libraries: 
-  ios: ../lib/ios/Awesome.dll
+  android: lib\Android\Colours.Android.dll
 version: "0.1"
+no_build: true
 ...
