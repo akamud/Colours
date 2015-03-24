@@ -196,7 +196,7 @@ namespace Colours.Android
          * @return color
          */
 
-        public static int CMYKtoColor(float[] cmyk)
+        public static int CMYKToColor(float[] cmyk)
         {
             float c = cmyk[0] * (1 - cmyk[3]) + cmyk[3];
             float m = cmyk[1] * (1 - cmyk[3]) + cmyk[3];
@@ -211,7 +211,7 @@ namespace Colours.Android
          * @return double[]
          */
 
-        public static double[] ColorToCIELAB(int color)
+        public static double[] ColorToCIELab(int color)
         {
             // Convert Color to XYZ format first
             double r = Color.GetRedComponent(color) / 255.0;
@@ -280,8 +280,8 @@ namespace Colours.Android
 
         public static double DistanceBetweenColorsWithFormula(int colorA, int colorB, ColorDistanceFormula formula)
         {
-            double[] lab1 = Colour.ColorToCIELAB(colorA);
-            double[] lab2 = Colour.ColorToCIELAB(colorB);
+            double[] lab1 = Colour.ColorToCIELab(colorA);
+            double[] lab2 = Colour.ColorToCIELab(colorB);
             double L1 = lab1[0];
             double A1 = lab1[1];
             double B1 = lab1[2];
