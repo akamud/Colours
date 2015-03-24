@@ -19,6 +19,6 @@ samples:
 publisher-url: https://github.com/akamud
 libraries: 
   android: lib\Android\Colours.Android.dll
-version: "0.1"
+version: "1.0"
 no_build: true
 ...
